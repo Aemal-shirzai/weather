@@ -1,0 +1,93 @@
+body {
+  background-image: url(/..//images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#formDiv {
+  width: 40%;
+  margin: 50px auto;
+}
+
+#formDiv h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+#formDiv h6 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+#formDiv #searchField {
+  font-weight: bold;
+}
+
+#formDiv #searchField::-webkit-input-placeholder {
+  font-weight: bold;
+}
+
+#formDiv #searchField::-moz-placeholder {
+  font-weight: bold;
+}
+
+#formDiv #searchField:-ms-input-placeholder {
+  font-weight: bold;
+}
+
+#formDiv #searchField::-ms-input-placeholder {
+  font-weight: bold;
+}
+
+#formDiv #searchField::placeholder {
+  font-weight: bold;
+}
+
+#formDiv .form-elements {
+  position: relative;
+}
+
+#formDiv .form-elements #loading {
+  position: absolute;
+  right: 86px;
+  top: 6px;
+  width: 25px;
+  z-index: 1;
+  display: none;
+}
+
+#data {
+  width: 40%;
+  margin: 30px auto;
+}
+
+#data h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+#data #details {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+#data #details #degree {
+  color: red;
+}
+
+#data #icon {
+  text-align: center;
+}
+
+.error {
+  border: 1px solid red;
+}
+
